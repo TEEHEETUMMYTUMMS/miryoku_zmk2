@@ -3,13 +3,13 @@
 
 
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
-
+// #define MIRYOKU_KEYBOARD_CORNE
 
 #if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
 
 #define XXX &none
 
-#define MIRYOKU_LAYERMAPPING_BASE( \
+#define MIRYOKU_LAYOUTMAPPING_CORNE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
@@ -52,18 +52,7 @@ U_UND,             U_CUT,             U_CPY,             U_PST,             U_RD
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
 
-#define MIRYOKU_LAYERMAPPING_NAV( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
 
-#endif
 
 #define MIRYOKU_LAYER_NAV \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
@@ -72,38 +61,12 @@ U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 
-#define MIRYOKU_LAYERMAPPING_MOUSE( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
-
-#endif
-
 #define MIRYOKU_LAYER_MOUSE \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_NU,              U_WH_L,            U_MS_U,            U_WH_R,            U_WH_U,            \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              U_NU,              U_MS_L,            U_MS_D,            U_MS_R,            U_WH_D,            \
 U_NA,              &kp RALT,          &u_to_U_SYM,       &u_to_U_MOUSE,     U_NA,              U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BTN2,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-
-#define MIRYOKU_LAYERMAPPING_MEDIA( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
-
-#endif
 
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_TOG,         U_RGB_EFF,         &kp C_VOL_UP,      U_RGB_HUI,         U_RGB_SAI,         \
@@ -113,18 +76,6 @@ U_NP,              U_NP,              &kp C_MUTE,        &kp C_PP,          &kp 
 
 
 
-#define MIRYOKU_LAYERMAPPING_NUM( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
-
-#endif
 
 #define MIRYOKU_LAYER_NUM \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PRCNT,         &kp N7,            &kp N8,            &kp N9,            &kp CARET,         \
@@ -133,38 +84,12 @@ U_NA,              &kp RALT,          &u_to_U_NAV,       &u_to_U_NUM,       U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp FSLH,          &kp N0,            &kp DOT,           U_NP,              U_NP
 
 
-#define MIRYOKU_LAYERMAPPING_SYM( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
-
-#endif
-
 #define MIRYOKU_LAYER_SYM \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp EXCL,          &kp RPAR,          &kp RBRC,          &kp RBKT,          &kp AT,            \
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp DLLR,          &kp LPAR,          &kp AMPS,          &kp EQUAL,         &kp MINUS,         \
 U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA,              &kp COLON,         &kp PLUS,          &kp LBKT,          &kp LBRC,          &kp HASH,          \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp QUESTION,      &kp ASTRK,         &kp PIPE,          U_NP,              U_NP
 
-
-#define MIRYOKU_LAYERMAPPING_FUN( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
-&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
-&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
-                    K32  K33  K34       K35  K36  K37
-
-#endif
 
 #define MIRYOKU_LAYER_FUN \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
