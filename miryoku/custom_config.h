@@ -15,17 +15,17 @@
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
 #define MIRYOKU_LAYER_BASE \
 &kp SQT,           &kp COMMA,         &kp DOT,           &kp P,             &kp Y,             &kp F,             &kp G,             &kp C,             &kp R,             &kp L,             \
 U_MT(LGUI, A),     U_MT(LALT, O),     U_MT(LCTRL, E),    U_MT(LSHFT, U),    &kp I,             &kp D,             U_MT(LSHFT, H),    U_MT(LCTRL, T),    U_MT(LALT, N),     U_MT(LGUI, S),     \
-U_LT(U_BUTTON, SLASH),U_MT(RALT, Q),  &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             U_MT(RALT, V),     U_LT(U_BUTTON, Z), \
+U_LT(U_BUTTON, SEMI),U_MT(RALT, Q),  &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             U_MT(RALT, V),     U_LT(U_BUTTON, Z), \
 U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_NUM, BSPC), U_LT(U_SYM, TAB),  U_LT(U_MOUSE, RET),U_LT(U_NAV, SPACE),U_LT(U_MEDIA, ESC),U_NP,              U_NP
 
 
@@ -58,10 +58,10 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -78,10 +78,10 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp 
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -98,10 +98,10 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -119,10 +119,10 @@ U_NP,              U_NP,              &kp C_MUTE,        &kp C_PP,          &kp 
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -139,10 +139,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -159,10 +159,10 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34       K35  K36  K37
+&kp DEL   K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC  \
+&kp LCTRL K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp MINUS \
+&kp LSHFT K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp LSHFT \
+                    K32  K33  K34       K35  K36  K37
 
 #endif
 
@@ -171,6 +171,4 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
 U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_FUN,       U_NA,              &kp PAUSE_BREAK,   &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPACE,         &kp K_APP,         U_NP,              U_NP
-
-
 
