@@ -86,7 +86,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_SYM \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp TILDE,         &kp LBRC,          &kp AMPS,          &kp RBRC,          &kp EXCL,          \
-&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp FSLH,          &kp LPAR,          &kp QUESTION,      &kp RPAR,          &kp BSLH,          \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp BSLH,          &kp LPAR,          &kp QUESTION,      &kp RPAR,          &kp MINUS,         \
 U_NA,              &kp RALT,          &u_to_U_MOUSE,     &u_to_U_SYM,       U_NA,              &kp CARET,         &kp LBKT,          &kp PIPE,          &kp RBKT,          &kp AT,            \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp QUESTION,      &kp MINUS,         &kp GRAVE,         U_NP,              U_NP
 
