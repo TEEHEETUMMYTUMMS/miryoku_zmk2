@@ -42,7 +42,7 @@ U_NP,              U_NP,              U_LT(U_FUN, DEL),  U_LT(U_SYM, BSPC), U_LT
 &kp SQT,           &kp COMMA,         &kp DOT,           &kp P,             &kp Y,             &kp F,             &kp G,             &kp C,             &kp R,             &kp L,             \
 &kp A,             &kp O,             &kp E,             &kp U,             &kp I,             &kp D,             &kp H,             &kp T,             &kp N,             &kp S,             \
 &kp SLASH,         &kp Q,             &kp J,             &kp K,             &kp X,             &kp B,             &kp M,             &kp W,             &kp V,             &kp Z,             \
-U_NP,              U_NP,              &kp DEL,            &kp BSPC,          U_LT(U_SYM, TAB),  &kp RET,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
+U_NP,              U_NP,              &kp DEL,           &kp BSPC,          U_LT(U_SYM, TAB),  &kp RET,           &kp SPACE,         &kp ESC,           U_NP,              U_NP
 
 
 #define MIRYOKU_LAYER_BUTTON \
