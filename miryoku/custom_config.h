@@ -93,7 +93,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_FUN \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              &kp PSCRN,         &kp F7,            &kp F8,            &kp F9,            &kp F12,           \
-&kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp SLCK,          &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
-U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_FUN,       &kp PAUSE_BREAK,   &kp K_APP,         &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
+&kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp K_APP,         &kp F4,            &kp F5,            &kp F6,            &kp F11,           \
+U_NA,              &kp RALT,          &u_to_U_MEDIA,     &u_to_U_FUN,       &kp PAUSE_BREAK,   &kp SLCK,          &kp F1,            &kp F2,            &kp F3,            &kp F10,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp TAB,           &kp SPACE,         &kp DEL,           U_NP,              U_NP
 
