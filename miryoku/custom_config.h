@@ -66,13 +66,13 @@ U_NP,              U_NP,              U_BTN3,            U_BTN2,            U_BT
 
 #define MIRYOKU_LAYER_NAV \
 &kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           &to U_BUTTON,      &to U_BASE,        &to U_EXTRA,       &to U_TAP,         U_BOOT,            \
-&kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &CAPS,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
-&kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         U_NA,              &to U_NAV,         &to U_SYM,         &kp RALT,          U_NA,              \
+&kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp CAPS,          &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
+U_NA,              &kp RALT,          &to U_SYM,         &to U_NAV,         U_NA,              &kp LC(Y),         U_PST,             U_CPY,             U_CUT,             &kp LC(Z),         \
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // U_BOOT,            &to U_TAP,         &to U_EXTRA,       &to U_BASE,        &to U_BUTTON,      &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
-// &kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp CAPS,          &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp PG_DN,         \
-// U_NA,              &kp RALT,          &to U_SYM,         &to U_NAV,         U_NA,              &kp LC(Y),         U_PST,             U_CPY,             U_CUT,             &kp LC(Z),         \
+// &kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &CAPS,             U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
+// &kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         U_NA,              &to U_NAV,         &to U_SYM,         &kp RALT,          U_NA,              \
 // U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_MEDIA \
