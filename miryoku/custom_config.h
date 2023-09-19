@@ -66,9 +66,9 @@ U_NP,              U_NP,              U_BTN3,            U_BTN2,            U_BT
 // U_NP,              U_NP,              U_BTN3,            U_BTN2,            U_BTN1,            U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define MIRYOKU_LAYER_NAV \
-&kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           &to U_BUTTON,      &to U_BASE,        &kp ESC,           &to U_TAP,         U_BOOT,            \
-&kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp CAPS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
-&kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         U_NA,              &to U_NAV,         &to U_SYM,         &kp RALT,          U_NA,              \
+&kp LC(Z),         &kp HOME,          &kp UP,            &kp END,           &kp LC(Y),         &to U_BUTTON,      &to U_BASE,        &kp ESC,           &to U_TAP,         U_BOOT,            \
+&kp PG_UP,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp CAPS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
+&kp PG_DN,         U_CUT,             U_CPY,             U_PST,             &kp INS,           U_NA,              &to U_NAV,         &to U_SYM,         &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // U_BOOT,            &to U_TAP,         &to U_EXTRA,       &to U_BASE,        &to U_BUTTON,      &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
