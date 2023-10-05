@@ -48,16 +48,16 @@ U_NP,              U_NP,              &kp DEL,           &kp BSPC,          U_LT
 #define MIRYOKU_LAYER_BUTTON \
 &kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         &kp LC(Y),         U_PST,             U_CPY,             U_CUT,             &kp LC(Z),         \
 &kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         &to U_BASE,        &to U_BASE,        &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
-&kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         &kp LC(Y),         U_PST,             U_CPY,             U_CUT,             &kp LC(Z),         \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 U_NP,              U_NP,              U_BTN3,            U_BTN2,            U_BTN1,            U_BTN1,            U_BTN2,            U_BTN3,            U_NP,              U_NP
 
 
 
 
 #define MIRYOKU_LAYER_NAV \
-&kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           &to U_BUTTON,      &to U_BASE,        &kp ESC,           &to U_TAP,         U_BOOT,            \
-&kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &kp CAPS,          U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
-&kp LC(Z),         U_CUT,             U_CPY,             U_PST,             &kp LC(Y),         U_NA,              &to U_MOUSE,       &to U_SYM,         &kp RALT,          U_NA,              \
+&kp PG_UP,         &kp HOME,          &kp UP,            &kp END,           &kp INS,           &to U_BUTTON,      &to U_BASE,        &kp ESC,           &mo U_TAP,         U_BOOT,            \
+&kp PG_DN,         &kp LEFT,          &kp DOWN,          &kp RIGHT,         &u_caps_word,      U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LGUI,          &kp LALT,          \
+U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              &to U_MOUSE,       &to U_SYM,         &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DEL,           &kp BSPC,          &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 // U_BOOT,            &to U_TAP,         &to U_EXTRA,       &to U_BASE,        &to U_BUTTON,      &kp INS,           &kp HOME,          &kp UP,            &kp END,           &kp PG_UP,         \
@@ -91,7 +91,7 @@ U_NP,              U_NP,              &kp C_MUTE,        &kp C_PP,          &kp 
 
 
 #define MIRYOKU_LAYER_NUM \
-U_BOOT,            &to U_TAP,         &to U_EXTRA,       &to U_BASE,        &to U_BUTTON,      &kp PRCNT,         &kp N7,            &kp N8,            &kp N9,            &kp PLUS,          \
+U_BOOT,            &mo U_TAP,         &to U_EXTRA,       &to U_BASE,        &to U_BUTTON,      &kp PRCNT,         &kp N7,            &kp N8,            &kp N9,            &kp PLUS,          \
 &kp LALT,          &kp LGUI,          &kp LCTRL,         &kp LSHFT,         U_NA,              &kp ASTRK,         &kp N4,            &kp N5,            &kp N6,            &kp MINUS,         \
 U_NA,              &kp RALT,          &to U_NAV,         &to U_NUM,         U_NA,              &kp DLLR,          &kp N1,            &kp N2,            &kp N3,            &kp EQUAL,         \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp FSLH,          &kp N0,            &kp DOT,           U_NP,              U_NP
