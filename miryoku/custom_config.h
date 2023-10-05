@@ -3,7 +3,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-
+#define MIRYOKU_CLIPBOARD_WIN
 #define MIRYOKU_KLUDGE_MOUSEKEYSPR
 // #define MIRYOKU_KEYBOARD_CORNE
 
