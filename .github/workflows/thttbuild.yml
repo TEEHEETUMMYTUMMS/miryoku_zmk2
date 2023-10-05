@@ -12,4 +12,4 @@ jobs:
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       branches: '["zmkfirmware/zmk/main urob/zmk/mouse-3.2"]'
-      clipboard: '["MIRYOKU_CLIPBOARD=WIN"]'
+      clipboard: '["win"]'
