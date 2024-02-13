@@ -2,6 +2,8 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Corne THTT'
+runs: 
+  using: 'node20'
 on: workflow_dispatch
 jobs:
   build:
